@@ -1,0 +1,33 @@
+.section__tableContainer {
+    overflow-x: auto;
+}
+
+.section__table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+.tableCell {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+}
+
+.tableHeader {
+    background-color: rgb(104, 104, 141);
+    color: white;
+    font-weight: normal;
+}
+
+.section__table--tableRow:nth-child(even) {
+    background-color: #ddd;
+}
+
+.section__table--tableRow:hover {
+    background-color: #aaa;
+}
+img {
+    max-width: 100%;
+    width: 300px;
+}

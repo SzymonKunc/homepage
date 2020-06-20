@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szymon Kunc- 1 strona</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/nav.css">
+    <link rel="stylesheet" href="style/table.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+
+    <script defer src="JS/script.js"></script>
+</head>
+
+<body class="container">
+    <header>
+        <h1> Pierwsza moja <br> strona, ale nie ostatnia 😈</h1>
+    </header>
+    <nav class="navigation">
+        <ul>
+            <li class="navigation__listItem"><a class="link" href="#O_mnie">O mnie</a></li>
+            <li class="navigation__listItem"><a class="link" href="#Ode_mnie">Ode mnie</a></li>
+            <li class="navigation__listItem"><a class="link" href="#filmy">Filmy</a></li>
+            <li class="navigation__listItem"><a class="link" href="#stopka">Zakończenie</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <p class="section__paragraph">
+        <button class="changeBackground">Wrzuć ciemno-czerwony motyw</button>
+    </p>
+    <section class="section">
+        <h2 class="section__header">ZNIKNĘ JEŚLI NACIŚNIESZ <br> PRZYCISK <br> PONIŻEJ</h2>
+
+        <p class="section__paragraph">
+            <button class="przycisk">Naciśnij mnie, a zniknie to u góry</button>
+        </p>
+    </section>
+    <main id="O_mnie">
+        <h2>Tutaj jeszcze trochę gruby, ale pracuję nad tym ;)</h2>
+        <img src="images/ja.jpg" alt="ja jeszcze brzydki i gruby">
+        <p>Jestem niespełna 40-letnim przyszłym <strong> Seniorem Front-endu</strong>. Jak widać przystojny i
+            śniady i nie da się mnie nie lubić , bo jestem taki pogodny :D
+        </p>
+        <p>Większość mojego życia gralem pół-zawodowo w koszykówke, jednak<strong> los i serce </strong>
+            zaprowadziły mnie do Hiszpanii. </p>
+    </main>
+    <section class="section">
+        <h2 id="Ode_mnie"></h2>
+        <p class="section__paragraph">
+            <button class="section__button1">Naciśnij mnie, a coś się stanie</button>
+        </p>
+
+        <p class="tlo">Cieszę się, że mogę być tu z Wami, bo zapowiada się na świetną zabawę i ogrom wiedzy.
+        </p>
+
+        <p class="tlo1">Życzę Wszystkim, żeby po skończeniu kursu spełniły się ich marzenia, a więc
+            <span>GOGO POWER RANGERS.</span></p>
+    </section>
+
+
+
+    <section class="section">
+        <h2 id="filmy"></h2>
+        <div class="section__tableContainer">
+            <table class="section__table">
+                <caption>Różne ciekawe filmy</caption>
+                <thead>
+                    <tr class="section__table--tableRow">
+
+                        <th class="tableCell tableHeader" scope="col">RODZAJ FILMU</th>
+                        <th class="tableCell tableHeader" scope="col">TYTUŁ</th>
+                        <th class="tableCell tableHeader" scope="col">ROK WYDANIA</th>
+                        <th class="tableCell tableHeader" scope="col">ZDJĘCIE</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="section__table--tableRow">
+                        <th class="tableCell tableHeader" scope="row">FILM AKCJI</th>
+                        <td class="tableCell">Rambo III</td>
+                        <td class="tableCell">1984</td>
+                        <td class="tableCell"><img src="images/rambo.jpg" alt="zdjęcie Rambo"></td>
+
+                    </tr>
+
+                    <tr class="section__table--tableRow">
+                        <th class="tableCell tableHeader" scope="row">FILM AKCJI</th>
+                        <td class="tableCell">John Wick </td>
+                        <td class="tableCell">2019</td>
+                        <td class="tableCell"><img src="images/wick.jpg" alt="zdjęcie filmu John Wick"></td>
+
+                    <tr class="section__table--tableRow">
+                        <th class="tableCell tableHeader" scope="row">DRAMAT</th>
+                        <td class="tableCell">Dynastia</td>
+                        <td class="tableCell">1980</td>
+                        <td class="tableCell"><img src="images/dynastia.jpg" alt="zdjęcie Dynastii"></td>
+
+                    </tr>
+
+                    <tr class="section__table--tableRow">
+                        <th class="tableCell tableHeader" scope="row">DRAMAT</th>
+                        <td class="tableCell">Dom z papieru</td>
+                        <td class="tableCell">1999</td>
+                        <td class="tableCell"><img src="images/casa.jpg" alt="zdjęcie filmy dom z papieru"></td>
+
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <footer class="footer" id="stopka">
+        <p>COŚ SIĘ TU KIEDYŚ WPISZE :D</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+html {
+    box-sizing: border-box;
+
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+
+}
+
+header {
+    border: 1px dashed black;
+    text-align: center;
+    margin: 5px;
+}
+
+
+.section__paragraph button {
+    font-size: 20px;
+}
+
+.section {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 79px 63px 44px 1px rgba(115, 96, 115, 1);
+}
+
+main {
+    text-align: center;
+    border: 2px dotted black;
+}
+
+
+
+.section__header {
+    color: yellow;
+    background-color: rgb(104, 104, 141);
+}
+
+span {
+    color: rgb(216, 84, 24);
+}
+
+.tlo {
+    font-size: 20px;
+    color: white;
+    background-color: rgb(104, 104, 141);
+
+}
+
+button {
+    padding: 10px;
+    font-size: 15px;
+    background-color: rgb(149, 149, 207);
+    border-radius: 15%;
+}
+
+.changeBackround {
+
+    background-color: #bbb;
+    color: red;
+}
+
+
+
+
+
+.footer {
+    width: 100%;
+    background-color: rgb(104, 104, 141);
+}
