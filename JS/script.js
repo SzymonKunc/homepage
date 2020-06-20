@@ -1,4 +1,4 @@
-console.log("Czesc Wszystkim Youcodeowcom :D !!!");
+console.log("Czesc Wszystkim Youcodeowcom :D !!! TEN KOD JEST JUZ W REPOZYTORIUM GIT.");
 
 let nav = document.querySelector("nav");
 let changeButton = document.querySelector(".changeBackground");
